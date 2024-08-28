@@ -1,0 +1,105 @@
+.wrappp {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .loginContainer {
+    width: 800px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .login-section {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+  }
+
+  .login-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .login-section input[type="email"],
+  .login-section input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+  }
+
+  .LogInbutton {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .LogInbutton:hover {
+    background-color: #45a049;
+  }
+
+  .screenshots-section {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .screenshots-section h3 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .screenshot1 {
+    width: 250px;
+    height: 150px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/img1.png);
+  }
+  .screenshot2 {
+    width: 250px;
+    height: 150px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/img2.png);
+  }
+  .screenshot3 {
+    width: 250px;
+    height: 150px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/img3.png);
+  }

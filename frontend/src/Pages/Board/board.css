@@ -1,0 +1,203 @@
+/* body{
+    max-height: 120vh;
+} */
+
+.cards {
+  display: flex;
+  padding: 5px 0px;
+  list-style: none;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  font-family: Arial;
+}
+
+.head {
+    position: sticky;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  background-color: rgb(247, 245, 255);
+  padding: 1%;
+  margin: 1%;
+  flex: 0 0 100%;
+  max-width: 25%;
+  max-height: 90vh;
+  transition: all 0.2s;
+
+}
+
+.taskcard { 
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    flex: 0 0 20%;
+    padding: 2.5%;
+    margin: 1%;
+    transition: all 0.2s;
+    border-radius: 0.3rem;
+    font-size: smaller;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+.cards::-webkit-scrollbar {
+    display: none;
+  }
+  .card::-webkit-scrollbar {
+    display: none;
+  }
+
+  .label{
+    font-weight: bold;
+  }
+
+  .description {
+    background-color: #eeeeee;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+  .attachments {
+    background-color: #eeeeee;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+  .attachments ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+  }
+
+  .attachments ul li {
+    margin-left: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(218, 218, 255);
+  }
+
+  .attachments ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .comments {
+    background-color: #eeeeee;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+  .comments ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  .comments ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+  }
+
+  .comments ul li:last-child {
+    border-bottom: none;
+  }
+
+  .comments ul li p {
+    margin: 0;
+    color: #333;
+  }
+
+  .add-comment {
+    background-color: #eeeeee;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #555;
+  }
+
+  .add-comment textarea {
+    width: 100%;
+    height: 50px;
+    resize: vertical;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .add-comment button {
+    background-color: blue;
+    color: #c6c6c6;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .add-comment button:hover {
+    background-color: rgb(40, 40, 255);
+  }
+
+  .modal{
+    --bs-modal-width:700px;
+  }
+
+  /* TaskCard.css */
+
+
+
+.assignee-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.profile-pic {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute; 
+}
+
+.profile-pic-1 {
+  right: 80px; /* Adjust the left value to control the overlap */
+  z-index: 2; /* Set a higher z-index to move it on top of other elements */
+}
+
+.profile-pic-2 {
+  right: 53px;
+  z-index: 1; /* Set a lower z-index to move it behind the top-most element */
+}
+
+.profile-pic-3 {
+  right:27px;
+  z-index: 0; /* Set a lower z-index to move it behind other elements */
+}
+
+.more-assignees {
+  width: 35px;
+  right:0;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-right: 4px;
+  font-size: 14px;
+  color: #fff;
+}
