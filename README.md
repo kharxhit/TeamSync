@@ -74,13 +74,7 @@ Port
 ```bash
 PORT
 ```
-# Authors
 
-- [@cheekuag](https://github.com/cheekuag)
-- [@ptayal76](https://github.com/ptayal76)
-- [@Pratham1504](https://github.com/Pratham1504)
-- [@RaghavDoda](https://github.com/RaghavDoda)
-- [@Perseus29](https://github.com/Perseus29)
 # Folder Structure
 
 ### Frontend
