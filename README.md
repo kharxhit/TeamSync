@@ -36,7 +36,7 @@ What sets TeamSync apart is its robust team collaboration features. Users can se
 Clone the project
 
 ```bash
-  git clone https://github.com/Pratham1504/TeamSync
+  git clone https://github.com/kharxhit/TeamSync
 ```
 
 Go to the backend directory
